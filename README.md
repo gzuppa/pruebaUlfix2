@@ -3,9 +3,11 @@
 ## Introducción
 Para esta prueba será necesario generar un chart utilizando las siguientes herramientas:
 
-API | Coindesk [CoinDesk](http://www.coindesk.com/) Para este ejercicio deberás conectarte a la API de Coindesk con los datos de Bitcoin [Bitcoin Price Index](https://web.archive.org/web/20191106152143/https://www.coindesk.com/api). Requeriremos que realices la representación de dichos datos de manera programática.
+API | Coindesk [CoinDesk](http://www.coindesk.com/) 
+Para este ejercicio deberás conectarte a la API de Coindesk con los datos de [Bitcoin Price Index](https://web.archive.org/web/20191106152143/https://www.coindesk.com/api). Requeriremos que realices la representación de dichos datos de manera programática.
 
-Representación gráfica | Chart.js [Chart.js](http://www.chartjs.org/) Para este ejercicio deberás representar el gráfico ya sea en un Canvas de HTML o en una vista de Handlebars
+Representación gráfica | [Chart.js](http://www.chartjs.org/) 
+Para este ejercicio deberás representar el gráfico ya sea en un Canvas de HTML o en una vista de Handlebars
 
 ## Requerimientos
   
@@ -63,5 +65,10 @@ TIP: Para probar tu request a la URL utiliza un `console.log()` para estar segur
 Una vez que la petición sea exitosa, deberás mostrar el chart en la vista (Canvas o Handlebars). Usaremos [Chart.js](http://www.chartjs.org/) por lo que será necesario que agregues el CDN.
 Una vez agregada la referencia CDN al HTML deberás representar la información obtenida en el json del paso 1 en un [Line Chart](http://www.chartjs.org/docs/#line-chart-introduction)
 
+## Tercer iteración: Filtrar fechas
+
+Como puedes observar, por default, la API proporciona los datos del último mes. En esta iteración agregarás dos `input` de fecha para poder hacer ese filtro.
+Revisa la documentación de [CoinDesk API documentation](https://web.archive.org/web/20191106152143/https://www.coindesk.com/api) para ver como obtener datos entre dos fechas.
+Recuerda que la información debe cambiar cada que eliges dos fechas distintas por lo que te recomendamos agregar listeners o triggers en tu función.
 
 
