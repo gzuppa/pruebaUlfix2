@@ -68,7 +68,8 @@ Una vez agregada la referencia CDN al HTML deberás representar la información 
 ## Tercer iteración: Filtrar fechas
 
 Como puedes observar, por default, la API proporciona los datos del último mes. En esta iteración agregarás dos `input` de fecha para poder hacer ese filtro.
-Revisa la documentación de [CoinDesk API documentation](https://web.archive.org/web/20191106152143/https://www.coindesk.com/api) para ver como obtener datos entre dos fechas.
+Revisa la documentación de [CoinDesk API](https://web.archive.org/web/20191106152143/https://www.coindesk.com/api) para ver como obtener datos entre dos fechas.
 Recuerda que la información debe cambiar cada que eliges dos fechas distintas por lo que te recomendamos agregar listeners o triggers en tu función.
 
 
+#éxito
